@@ -10,4 +10,6 @@ def generate_log(log_data):
         for entry in log_data:
             file.write(entry + "\n")
 
+    print(f"Log written to {filename}")
+
     return filename
